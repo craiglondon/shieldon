@@ -23,12 +23,12 @@ declare(strict_types=1);
 namespace Shieldon\Firewall\Captcha;
 
 /**
- * ComponentPrivider
+ * CaptchaProvider
  */
 abstract class CaptchaProvider implements CaptchaInterface
 {
     /**
-     * Constroctor.
+     * Constructor.
      */
     public function __construct()
     {
