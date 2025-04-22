@@ -84,7 +84,7 @@ class UserAgent extends ComponentProvider
 
         /**
          * Those robots are considered as bad behavior.
-         * Therefore we list them here.
+         * Therefore, we list them here.
          */
         $this->deniedList = [
 

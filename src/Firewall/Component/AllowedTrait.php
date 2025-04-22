@@ -174,7 +174,7 @@ trait AllowedTrait
 
     /**
      * Is allowed?
-     * This method should adjust in extended class if need.
+     * This method should adjust in extended class if needed.
      *
      * @return bool
      */

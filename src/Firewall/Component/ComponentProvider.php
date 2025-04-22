@@ -37,7 +37,7 @@ abstract class ComponentProvider
     /**
      * Enable strict mode.
      *
-     * @param bool $bool Set true to enble strict mode, false to disable it overwise.
+     * @param bool $bool Set true to enable strict mode, false to disable it otherwise.
      *
      * @return void
      */

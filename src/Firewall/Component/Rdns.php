@@ -98,7 +98,7 @@ class Rdns extends ComponentProvider
                 return true;
             }
 
-            // If the RDNS is an IP adress, not a FQDN.
+            // If the RDNS is an IP address, not a FQDN.
             if ($this->ip === $this->rdns) {
                 return true;
             }

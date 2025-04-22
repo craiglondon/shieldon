@@ -114,7 +114,7 @@ class TrustedBot extends ComponentProvider
 
         $this->allowedList = [
 
-            // Search engline: Google.
+            // Search engine: Google.
             'google_1' => [
                 'userAgent' => 'google',
                 'rdns'      => '.googlebot.com',
@@ -125,7 +125,7 @@ class TrustedBot extends ComponentProvider
                 'rdns'      => '.google.com',
             ],
     
-            // Search engline: Mircosoft.
+            // Search engine: Microsoft.
             'bing_1' => [
                 'userAgent' => 'live',
                 'rdns'      => '.live.com',
@@ -141,7 +141,7 @@ class TrustedBot extends ComponentProvider
                 'rdns'      => '.bing.com',
             ],
     
-            // Search engline: Yahoo.
+            // Search engine: Yahoo.
             'yahoo_1' => [
                 'userAgent' => 'inktomisearch',
                 'rdns'      => '.inktomisearch.com',
@@ -213,7 +213,7 @@ class TrustedBot extends ComponentProvider
         );
 
         if (!preg_match('/(' . implode('|', $userAgent) . ')/i', $this->userAgent)) {
-            // Okay, current request's user-agent string doesn't contain our truested bots' infroamtion.
+            // Okay, current request's user-agent string doesn't contain our trusted bots' information.
             // Ignore it.
             return false;
         }
@@ -226,7 +226,7 @@ class TrustedBot extends ComponentProvider
 
         // We will check the RDNS record to see if it is in the whitelist.
         if (preg_match('/(' . implode('|', $rdns) . ')/i', $this->rdns)) {
-            // To prevent "fake" RDNS such as "abc.google.com.fakedomain.com" pass thorugh our checking process.
+            // To prevent "fake" RDNS such as "abc.google.com.fakedomain.com" pass through our checking process.
             // We need to check it one by one.
             foreach ($rdns as $r) {
                 // For example:
@@ -260,7 +260,7 @@ class TrustedBot extends ComponentProvider
         }
 
         // Here, once a request uses a user-agent that contains search engine information,
-        // but it does't pass the RDNS check.
+        // but it doesn't pass the RDNS check.
         // We can identify it is fake.
         $this->isFake = true;
 
@@ -343,9 +343,9 @@ class TrustedBot extends ComponentProvider
     /**
      * Add new items to the allowed list.
      *
-     * @param string $name      The key for this inforamtion.
+     * @param string $name      The key for this information.
      * @param string $useragent A piece of user-agent string that can identify.
-     * @param string $rdns      The RDNS inforamtion of the bot.
+     * @param string $rdns      The RDNS information of the bot.
      *
      * @return void
      */
