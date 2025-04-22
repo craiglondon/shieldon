@@ -39,7 +39,7 @@ use const JSON_PRETTY_PRINT;
 trait FirewallTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   getKernel            | Get the Shieldon Kernel instance.
      *   getConfiguration     | Get the configuration data.

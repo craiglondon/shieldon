@@ -36,7 +36,7 @@ use function preg_match;
 class Rdns extends ComponentProvider
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setIp                | Set an IP address.
      *   getIp                | Get current set IP.
@@ -47,7 +47,7 @@ class Rdns extends ComponentProvider
     use IpTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setDeniedItems       | Add items to the blacklist pool.
      *   setDeniedItem        | Add an item to the blacklist pool.

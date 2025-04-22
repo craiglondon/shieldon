@@ -28,7 +28,7 @@ namespace Shieldon\Firewall\Panel;
 trait CsrfTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   csrf                 | Receive the CSRF name and token from the App.
      *   setCsrfField         | Set CSRF input fields.

@@ -59,7 +59,7 @@ use function time;
 class Kernel
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   ban                  | Ban an IP.
      *   getCurrentUrl        | Get current user's browsing path.
@@ -77,7 +77,7 @@ class Kernel
      */
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setCaptcha           | Set a captcha.
      *   captchaResponse      | Return the result from Captchas.
@@ -87,7 +87,7 @@ class Kernel
     use CaptchaTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setComponent         | Set a commponent.
      *   getComponent         | Get a component instance from component's container.
@@ -97,7 +97,7 @@ class Kernel
     use ComponentTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setDriver            | Set a data driver.
      *   setChannel           | Set a data channel.
@@ -107,7 +107,7 @@ class Kernel
     use DriverTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setFilters           | Set the filters.
      *   setFilter            | Set a filter.
@@ -117,7 +117,7 @@ class Kernel
     use FilterTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setIp                | Set an IP address.
      *   getIp                | Get current set IP.
@@ -128,7 +128,7 @@ class Kernel
     use IpTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setMessenger         | Set a messenger
      *  ----------------------|---------------------------------------------
@@ -136,7 +136,7 @@ class Kernel
     use MessengerTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *                        | No public methods.
      *  ----------------------|---------------------------------------------
@@ -144,7 +144,7 @@ class Kernel
     use RuleTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   limitSession         | Limit the amount of the online users.
      *   getSessionCount      | Get the amount of the sessions.
@@ -153,7 +153,7 @@ class Kernel
     use SessionTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setDialog            | Set the dialog UI.
      *   respond              | Respond the result.

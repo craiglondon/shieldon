@@ -31,7 +31,7 @@ use RuntimeException;
 trait MessengerTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setMessenger         | Set a messenger
      *  ----------------------|---------------------------------------------

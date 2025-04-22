@@ -49,7 +49,7 @@ use function sprintf;
 trait TemplateTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   respond              | Respond the result.
      *   setTemplateDirectory | Set the frontend template directory.

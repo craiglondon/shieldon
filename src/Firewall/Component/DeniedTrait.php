@@ -33,7 +33,7 @@ use function strpos;
 trait DeniedTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setDeniedItems       | Add items to the blacklist pool.
      *   setDeniedItem        | Add an item to the blacklist pool.

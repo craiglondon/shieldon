@@ -33,7 +33,7 @@ use function strpos;
 trait AllowedTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setAllowedItems      | Add items to the whitelist pool.
      *   setAllowedItem       | Add an item to the whitelist pool.

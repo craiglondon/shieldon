@@ -58,14 +58,14 @@ use const JSON_PRETTY_PRINT;
 class BaseController
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *                        | No public methods.
      *  ----------------------|---------------------------------------------
      */
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *                        | No public methods.
      *  ----------------------|---------------------------------------------
@@ -73,7 +73,7 @@ class BaseController
     use ConfigMethodsTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   csrf                 | Receive the CSRF name and token from the App.
      *   setCsrfField         | Set CSRF input fields.
@@ -83,7 +83,7 @@ class BaseController
     use CsrfTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   demo                 | Start a demo mode. Setting fields are hidden.
      *  ----------------------|---------------------------------------------
@@ -91,7 +91,7 @@ class BaseController
     use DemoModeTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   getKernel            | Get the Shieldon Kernel instance.
      *   getConfiguration     | Get the configuration data.
@@ -104,7 +104,7 @@ class BaseController
     use FirewallTrait;
 
     /**
-     * LogPaeser instance.
+     * LogParser instance.
      *
      * @var object
      */
@@ -364,7 +364,7 @@ class BaseController
 
         $this->saveConfigPrepareSettings($postParams);
 
-        //  Start checking the availibility of the data driver settings.
+        //  Start checking the availability of the data driver settings.
         $result = true;
         $result = $this->saveConfigCheckDataDriver($result);
         $result = $this->saveConfigCheckActionLogger($result);

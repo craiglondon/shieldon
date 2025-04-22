@@ -35,7 +35,7 @@ use function array_keys;
 trait FilterTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setFilters           | Set the filters.
      *   setFilter            | Set a filter.

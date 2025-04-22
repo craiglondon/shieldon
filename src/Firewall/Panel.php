@@ -48,7 +48,7 @@ use function ucfirst;
 class Panel
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   __call               | Magic method. Let property can run as a method.
      *   entry                | Initialize the entry point of the control panel
@@ -57,7 +57,7 @@ class Panel
      */
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   demo                 | Start a demo mode. Setting fields are hidden.
      *  ----------------------|---------------------------------------------
@@ -65,7 +65,7 @@ class Panel
     use DemoModeTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   csrf                 | Receive the CSRF name and token from the App.
      *   setCsrfField         | Set CSRF input fields.

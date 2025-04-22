@@ -23,7 +23,7 @@ declare(strict_types=1);
 namespace Shieldon\Firewall\Component;
 
 /**
- * ComponentPrivider
+ * ComponentProvider
  */
 abstract class ComponentProvider
 {

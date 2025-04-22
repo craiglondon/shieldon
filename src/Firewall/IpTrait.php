@@ -32,7 +32,7 @@ use function Shieldon\Firewall\set_ip;
 trait IpTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setIp                | Set an IP address.
      *   getIp                | Get current set IP.

@@ -46,7 +46,7 @@ use function substr;
 class Home extends BaseController
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   overview             | The overview page.
      *  ----------------------|---------------------------------------------

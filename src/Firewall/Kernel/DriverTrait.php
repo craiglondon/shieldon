@@ -33,7 +33,7 @@ use function php_sapi_name;
 trait DriverTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setDriver            | Set a data driver.
      *   setChannel           | Set a data channel.

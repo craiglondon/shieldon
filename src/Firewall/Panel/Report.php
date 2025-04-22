@@ -39,7 +39,7 @@ use function date;
 class Report extends BaseController
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   operation            | The page for operating status.
      *   actionLog            | The page for displaying action logs.

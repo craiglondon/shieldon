@@ -45,7 +45,7 @@ use function umask;
 trait ConfigMethodsTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *                        | No public methods.
      *  ----------------------|---------------------------------------------

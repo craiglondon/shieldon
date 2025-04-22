@@ -32,7 +32,7 @@ use function Shieldon\Firewall\get_response;
 class Asset extends BaseController
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   css                  | Output the content contains CSS.
      *   js                   | Output the content contains JavaScript.

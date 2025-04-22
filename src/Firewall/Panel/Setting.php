@@ -43,7 +43,7 @@ use const JSON_PRETTY_PRINT;
 class Setting extends BaseController
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   basic                | The page for managing page authentication.
      *   ipManager            | The page for managing XSS protection.

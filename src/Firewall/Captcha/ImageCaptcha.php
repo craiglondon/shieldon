@@ -80,7 +80,7 @@ class ImageCaptcha extends CaptchaProvider
 
     /**
      * Image resource.
-     * Throw exception the the value is not resource.
+     * Throw exception if the value is not resource.
      *
      * @var resource|null|bool
      */
@@ -266,7 +266,7 @@ class ImageCaptcha extends CaptchaProvider
             $colors['border']
         );
 
-        // Save hash to the user sesssion.
+        // Save hash to the user session.
         $hash = password_hash($this->word, PASSWORD_BCRYPT);
 
         get_session_instance()->set('shieldon_image_captcha_hash', $hash);

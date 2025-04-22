@@ -33,7 +33,7 @@ use Shieldon\Firewall\Component\Ip;
 trait ComponentTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setComponent         | Set a commponent.
      *   getComponent         | Get a component instance from component's container.

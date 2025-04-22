@@ -43,7 +43,7 @@ use function time;
 class Session
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   init                 | Initialize the session.
      *   getId                | Get session ID.

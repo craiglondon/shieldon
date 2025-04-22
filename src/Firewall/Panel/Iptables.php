@@ -45,7 +45,7 @@ use function trim;
 class Iptables extends BaseController
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   ip4                  | The page for iptables (IPv4) management.
      *   ip6                  | The page for iptables (IPv6) management.

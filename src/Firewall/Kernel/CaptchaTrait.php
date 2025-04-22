@@ -31,7 +31,7 @@ use Shieldon\Firewall\Captcha\CaptchaInterface;
 trait CaptchaTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setCaptcha           | Set a captcha.
      *   captchaResponse      | Return the result from Captchas.

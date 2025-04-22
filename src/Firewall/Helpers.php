@@ -66,7 +66,7 @@ class Helpers
 }
 
 /**
- *   Public methods       | Desctiotion
+ *   Public methods       | Description
  *  ----------------------|---------------------------------------------
  *  __                    | Get locale message.
  *  _e                    | Echo string from __()

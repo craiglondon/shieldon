@@ -30,7 +30,7 @@ use Shieldon\Firewall\Container;
 trait DemoModeTrait
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   demo                 | Start a demo mode. Setting fields are hidden.
      *  ----------------------|---------------------------------------------

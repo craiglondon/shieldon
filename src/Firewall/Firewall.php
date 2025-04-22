@@ -47,7 +47,7 @@ use function rtrim;
 class Firewall
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setup                | Apply all setup proccesses.
      *   configure            | The absolute path of a dictionary for storing data.
@@ -60,7 +60,7 @@ class Firewall
      */
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   getKernel            | Get the Shieldon Kernel instance.
      *   getConfiguration     | Get the configuration data.
@@ -73,7 +73,7 @@ class Firewall
     use FirewallTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *                        | No public methods.
      *  ----------------------|---------------------------------------------
@@ -81,7 +81,7 @@ class Firewall
     use SetupTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *                        | No public methods.
      *  ----------------------|---------------------------------------------
@@ -89,7 +89,7 @@ class Firewall
     use XssProtectionTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *                        | No public methods.
      *  ----------------------|---------------------------------------------

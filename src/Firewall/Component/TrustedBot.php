@@ -42,7 +42,7 @@ use function strstr;
 class TrustedBot extends ComponentProvider
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setIp                | Set an IP address.
      *   getIp                | Get current set IP.
@@ -53,7 +53,7 @@ class TrustedBot extends ComponentProvider
     use IpTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setAllowedItems      | Add items to the whitelist pool.
      *   setAllowedItem       | Add an item to the whitelist pool.
@@ -70,7 +70,7 @@ class TrustedBot extends ComponentProvider
     use AllowedTrait;
 
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   setDeniedItems       | Add items to the blacklist pool.
      *   setDeniedItem        | Add an item to the blacklist pool.

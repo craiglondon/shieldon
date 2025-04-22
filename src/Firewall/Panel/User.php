@@ -41,7 +41,7 @@ use function password_verify;
 class User extends BaseController
 {
     /**
-     *   Public methods       | Desctiotion
+     *   Public methods       | Description
      *  ----------------------|---------------------------------------------
      *   login                | Display the login form.
      *   logout               | Remove the login status.
