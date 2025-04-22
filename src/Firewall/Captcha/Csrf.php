@@ -22,8 +22,6 @@ declare(strict_types=1);
 
 namespace Shieldon\Firewall\Captcha;
 
-use Shieldon\Firewall\Captcha\CaptchaProvider;
-
 /**
  * Add form fields for the CSRF features of some frameworks.
  */
@@ -80,8 +78,6 @@ class Csrf extends CaptchaProvider
      */
     public function form(): string
     {
-        $html = '<input type="hidden" name="' . $this->name . '" value="' . $this->value . '">';
-
-        return $html;
+        return '<input type="hidden" name="' . $this->name . '" value="' . $this->value . '">';
     }
 }

@@ -182,14 +182,14 @@ class ImageCaptcha extends CaptchaProvider
         $imgHeight = $this->properties['img_height'];
 
         if (!empty($base64image)) {
-            $html = '<div style="padding: 0px; overflow: hidden; margin: 10px 0;">';
+            $html = '<div style="padding: 0; overflow: hidden; margin: 10px 0;">';
             $html .= '<div style="
                 border: 1px #dddddd solid;
                 overflow: hidden;
                 border-radius: 3px;
                 display: inline-block;
                 padding: 5px;
-                box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);">';
+                box-shadow: 0 0 4px 1px rgba(0,0,0,0.08);">';
             $html .= '<div style="margin-bottom: 2px;"><img src="data:image/' .
                 $this->imageType . ';base64,' .
                 $base64image . '" style="width: ' .

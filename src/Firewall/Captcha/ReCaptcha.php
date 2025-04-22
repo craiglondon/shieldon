@@ -22,8 +22,6 @@ declare(strict_types=1);
 
 namespace Shieldon\Firewall\Captcha;
 
-use Shieldon\Firewall\Captcha\CaptchaProvider;
-
 use function Shieldon\Firewall\get_request;
 use function Shieldon\Firewall\unset_superglobal;
 use CurlHandle; // PHP 8
