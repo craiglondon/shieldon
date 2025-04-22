@@ -85,7 +85,7 @@ $timezone = '';
                         <?php _e('panel', 'ipma_text_nodata', 'No data is available now.'); ?>
                     </td>
                 </tr>
-            </tbdoy>
+            </tbody>
         </table>
     </div>
     <?php else : ?>
